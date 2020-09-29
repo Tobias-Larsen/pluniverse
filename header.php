@@ -10,9 +10,9 @@
 
 
 <header class="container-fluid px-4">
-    <div class="Header-section1">sdfsdfdsfsdfsdsfdsfsdfsdfsdfsdfsdsddddddddddddddddddddddddddddd
+    <div class="Header-section1">
+        <img src="img/Toplogo.png" alt="Toplogo">
 
-        <img src="" alt="Toplogo">
     </div>
 </header>
 
