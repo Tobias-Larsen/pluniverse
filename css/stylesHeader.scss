@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
-}
+ }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0; /* Ingen ydre margen fra overskrifter */
@@ -42,10 +42,12 @@ img {
 
 .topLogo{
   width: 154px;
- }
+}
 
 header{
   height: 102px;
+  padding: 0 24px 0 24px;
+
 
   .threeIcons{
     font-size: 25px;
@@ -105,3 +107,31 @@ header{
     }
   }
 }
+
+@media screen and (min-width: 768px){
+
+  header{
+    padding-left: 0; /* center function */
+  }
+  .Header-section1{
+    justify-self: center;
+    transform: translateX(-50%);
+    margin-left: 50%;
+  }
+
+  div > a{
+    text-decoration: dotted;
+    color: white;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  .nav-Desktop{
+    height: 42px;
+    align-items: center;
+   }
+
+
+}
+
