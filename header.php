@@ -3,8 +3,7 @@
 <html>
 
 <head>
-
-</head>
+ </head>
 
 <body>
 
@@ -15,10 +14,10 @@
     </div>
 
     <div class="threIcons d-flex">
-        <div class="pr-2"><p>ssss</p></div>
-        <div class="px-2"><p>sssss</p></div>
-        <div class="pl-2"><p>sssss</p></div>
-     </div>
+        <div class="mr-2"><i class="fas fa-heart"></i></div>
+        <div class="mx-2"><i class="fas fa-shopping-cart"></i></div>
+        <div class="ml-2"><i class="fas fa-bars"></i></div>
+    </div>
 </header>
 
 
