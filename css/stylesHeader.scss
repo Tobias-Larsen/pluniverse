@@ -57,6 +57,7 @@ header{
 
     > .burgerBarContainer{
       cursor: pointer;
+      z-index: 400;
 
       > .burgerBar{
         width: $burgerWidth;
