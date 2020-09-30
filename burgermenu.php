@@ -8,8 +8,6 @@
 
 <body>
 
-<div class="siteContent"></div>
-
 <div class="burgerMenu">
 
     <div class="menuLinkContainer">
