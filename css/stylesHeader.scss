@@ -46,8 +46,60 @@ img {
 
 header{
   height: 102px;
-}
 
-.threIcons{
-  font-size: 25px;
+  .threeIcons{
+    font-size: 25px;
+
+    $burgerWidth: 24px;
+    $burgerHeight: 3px;
+
+    > .burgerBarContainer{
+      cursor: pointer;
+
+      > .burgerBar{
+        width: $burgerWidth;
+        height: $burgerHeight;
+        background-color: white;
+        position: relative;
+        transition: 0.3s;
+
+        &:before, &:after{
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: $burgerHeight;
+          background-color: white;
+          transition: 0.3s;
+          left: 0;
+        }
+
+        &:before{
+          top: -8px;
+        }
+
+        &:after{
+          top: 8px;
+        }
+
+        &.cross{
+          transform: rotate(-90deg);
+          background-color: rgba(0, 0, 0, 0);
+
+          &:before, &:after{
+            top: 50%;
+            left: 50%;
+            width: 120%;
+          }
+
+          &:before{
+            transform: translate(-50%, -50%) rotate(-135deg);
+          }
+
+          &:after{
+            transform: translate(-50%, -50%) rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
 }

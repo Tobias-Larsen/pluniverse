@@ -13,10 +13,12 @@
         <img class="topLogo" src="img/Toplogo.png" alt="Toplogo">
     </div>
 
-    <div class="threIcons d-flex">
+    <div class="threeIcons d-flex">
         <div class="mr-2"><i class="fas fa-heart"></i></div>
         <div class="mx-2"><i class="fas fa-shopping-cart"></i></div>
-        <div class="ml-2"><i class="fas fa-bars"></i></div>
+        <div class="burgerBarContainer py-3 pl-2 d-md-none clicked">
+            <div class="burgerBar"></div>
+        </div>
     </div>
 </header>
 
