@@ -50,8 +50,8 @@ header{
   .threeIcons{
     font-size: 25px;
 
-    $burgerWidth: 24px;
-    $burgerHeight: 3px;
+    $burgerWidth: 30px;
+    $burgerHeight: 4px;
 
     > .burgerBarContainer{
       cursor: pointer;
@@ -59,8 +59,9 @@ header{
       > .burgerBar{
         width: $burgerWidth;
         height: $burgerHeight;
-        background-color: white;
+        background-color: black;
         position: relative;
+        border-radius: 1000px;
         transition: 0.3s;
 
         &:before, &:after{
@@ -68,17 +69,18 @@ header{
           position: absolute;
           width: 100%;
           height: $burgerHeight;
-          background-color: white;
+          background-color: black;
+          border-radius: 1000px;
           transition: 0.3s;
           left: 0;
         }
 
         &:before{
-          top: -8px;
+          top: -9px;
         }
 
         &:after{
-          top: 8px;
+          top: 9px;
         }
 
         &.cross{
