@@ -16,7 +16,7 @@
     <div class="threeIcons d-flex align-items-center">
         <div class="mr-2 pb-1"><i class="fas fa-heart"></i></div>
         <div class="mx-2 pb-1"><i class="fas fa-shopping-cart"></i></div>
-        <div class="burgerBarContainer py-3 pl-2 d-md-none clicked">
+        <div class="burgerBarContainer py-3 pl-2 d-md-none">
             <div class="burgerBar"></div>
         </div>
     </div>
