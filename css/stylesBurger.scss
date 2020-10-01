@@ -14,6 +14,7 @@ $fontSizeMenu : 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   white-space: pre-line;
 
   z-index: 399;
@@ -21,6 +22,7 @@ $fontSizeMenu : 18px;
 
 
   .menuLink{
+    text-align: center;
   display: none;
 
   }
@@ -30,13 +32,23 @@ $fontSizeMenu : 18px;
   }
 
   a {
-    text-align: center;
     color: #eee;
 
     font-size: $fontSizeMenu;
     flex-wrap: nowrap;
     line-break: revert;
 
+    display: none;
   }
+}
+
+.fullScreenClickDetect{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(-90deg, gray, transparent);
+  opacity: 0.4;
+  top: 0;
+  display: none;
 }
 
