@@ -22,6 +22,7 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/stylesIndex.min.css" rel="stylesheet" type="text/css">
     <link href="css/stylesHeader.min.css" rel="stylesheet" type="text/css">
+    <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="css/stylesBurger.min.css" rel="stylesheet" type="text/css">
 
@@ -39,6 +40,10 @@ include 'header.php';
 ?>
 <?php
 include 'burgermenu.php';
+?>
+
+<?php
+include 'forsideSwiper.php';
 ?>
 
 
