@@ -10,7 +10,7 @@ html {
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
- }
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0; /* Ingen ydre margen fra overskrifter */
@@ -113,12 +113,20 @@ header{
 
   header{
     padding-left: 0; /* center function */
+    height: 150px;
   }
   .Header-section1{
     justify-self: center;
     transform: translateX(-50%);
     margin-left: 50%;
+
+
+    > .topLogo{
+      width: 180px;
+      height: 64px;
+    }
   }
+
 
   div > a{
     text-decoration: dotted;
@@ -131,8 +139,24 @@ header{
   .nav-Desktop{
     height: 42px;
     align-items: center;
-   }
-
+  }
 
 }
 
+
+@media screen and (min-width: 1200px){
+
+  header{
+    height: 120px;
+  }
+  .Header-section1{
+    justify-self: center;
+    transform: translateX(-50%);
+    margin-left: 50%;
+
+    > .topLogo{
+      width: 200px;
+      height: 72px;
+    }
+  }
+}
