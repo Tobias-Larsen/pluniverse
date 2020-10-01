@@ -8,7 +8,8 @@
 
 <body>
 
-<div class="burgerMenu">
+<div class="d-md-none fullScreenClickDetect"></div>
+<div class="d-md-none burgerMenu">
 
     <div class="menuLinkContainer">
     <a class="menuLink"> Produkter </a>
@@ -47,6 +48,8 @@
 
             $(".burgerMenu a").fadeIn(1000);
 
+            $(".fullScreenClickDetect").fadeIn(600);
+
             $(".burgerBar").addClass('cross');
 
             burgermenuShown = true;
@@ -71,6 +74,7 @@
                 'margin-left' : "0"
             }, 600);
 
+            $(".fullScreenClickDetect").fadeOut(400);
 
             $(".burgerBar").removeClass('cross');
 
@@ -84,6 +88,13 @@
             {
                 showMenu();
             } else {
+                hideMenu();
+            }
+        });
+
+        $(".fullScreenClickDetect").click(function() {
+            if(burgermenuShown === true)
+            {
                 hideMenu();
             }
         });
