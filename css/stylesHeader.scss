@@ -50,6 +50,16 @@ header{
   height: 102px;
   padding: 0 24px 0 24px;
 
+  .nav-Desktop{
+    background-color: #1B5BDB;
+  }
+
+
+  a:hover {
+     color: white;
+  }
+
+
 
   .threeIcons{
     font-size: 25px;
@@ -80,7 +90,7 @@ header{
           left: 0;
         }
 
-         &:after{
+        &:after{
           content: '';
           position: absolute;
           width: 100%;
@@ -148,10 +158,7 @@ header{
   div > a{
     text-decoration: dotted;
     color: white;
-
-    &:hover{
-      text-decoration: none;
-    }
+    font-size: 18px;
   }
   .nav-Desktop{
     height: 42px;

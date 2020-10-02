@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div class="nav-Desktop w-100 d-none d-md-flex flex-row justify-content-md-center badge-dark">
+    <div class="nav-Desktop w-100 d-none d-md-flex flex-row justify-content-md-center">
         <div class="px-4"><a href="#">Produkter</a></div>
         <div class="px-4"><a href="#">Design din egen</a></div>
         <div class="px-4"><a href="#">Om os</a></div>
