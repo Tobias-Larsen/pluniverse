@@ -15,17 +15,11 @@
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <!--    Bootstrap css-->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="css/stylesIndex.min.css" rel="stylesheet" type="text/css">
-    <link href="css/stylesHeader.min.css" rel="stylesheet" type="text/css">
-    <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="css/stylesBurger.min.css" rel="stylesheet" type="text/css">
-    <link href="css/stylesFooter.min.css" rel="stylesheet" type="text/css">
+
+<?php
+include 'imports.php'
+?>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
