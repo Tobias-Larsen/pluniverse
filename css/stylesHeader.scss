@@ -56,6 +56,10 @@ header{
     background-color: #1B5BDB;
   }
 
+  .swiper-pagination-bullet:focus{
+    border: none;
+  }
+
 
   a:hover {
      color: white;
