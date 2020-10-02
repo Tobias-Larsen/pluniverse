@@ -15,16 +15,11 @@
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
-    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-    <!--    Bootstrap css-->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="css/stylesIndex.min.css" rel="stylesheet" type="text/css">
-    <link href="css/stylesHeader.min.css" rel="stylesheet" type="text/css">
-    <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
-    <link href="css/stylesBurger.min.css" rel="stylesheet" type="text/css">
-    <link href="css/stylesFooter.min.css" rel="stylesheet" type="text/css">
+
+<?php
+include 'imports.php'
+?>
 
     <!--<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">-->
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
