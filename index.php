@@ -30,6 +30,7 @@ include 'imports.php'
 
 <!-- Her skal sidens indhold ligge -->
 
+
 <?php
 include 'header.php';
 ?>
