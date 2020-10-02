@@ -25,6 +25,7 @@
     <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="css/stylesBurger.min.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesFooter.min.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,7 +49,9 @@ include 'forsideSwiper.php';
 
 
 
-
+<?php
+include 'footer.php';
+?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script>
