@@ -9,9 +9,12 @@ body {
 }
 
 .slide1{
-  background: url("img/testBillede.jpg") center !important;
-  background-size: cover;
-}
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+   background-size: cover;
+ }
 
 
 .swiper-container {
