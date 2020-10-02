@@ -15,8 +15,6 @@
     </div>
 
     <div class="threeIcons d-flex px-4">
-        <div class="mr-2 mr-md-4 pb-1"><i class="fas fa-heart"></i></div>
-        <div class="mx-2 mr-md-4 pb-1"><i class="fas fa-shopping-cart"></i></div>
         <div class="burgerBarContainer py-3 pl-2 d-md-none clicked">
             <div class="burgerBar"></div>
         </div>

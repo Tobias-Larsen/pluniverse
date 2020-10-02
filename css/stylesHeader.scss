@@ -44,6 +44,8 @@ img {
   width: 154px;
 }
 
+
+
 header{
   height: 102px;
   padding: 0 24px 0 24px;
@@ -62,21 +64,33 @@ header{
       > .burgerBar{
         width: $burgerWidth;
         height: $burgerHeight;
-        background-color: black;
+        background-color: #E53333;
         position: relative;
         border-radius: 1000px;
         transition: 0.3s;
 
-        &:before, &:after{
+        &:before{
           content: '';
           position: absolute;
           width: 100%;
           height: $burgerHeight;
-          background-color: black;
+          background-color: #28DB28;
           border-radius: 1000px;
           transition: 0.3s;
           left: 0;
         }
+
+         &:after{
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: $burgerHeight;
+          background-color: #1B5BDB;
+          border-radius: 1000px;
+          transition: 0.3s;
+          left: 0;
+        }
+
 
         &:before{
           top: -9px;
@@ -98,10 +112,12 @@ header{
 
           &:before{
             transform: translate(-50%, -50%) rotate(-135deg);
+            background-color: white;
           }
 
           &:after{
             transform: translate(-50%, -50%) rotate(-45deg);
+            background-color: white;
           }
         }
       }

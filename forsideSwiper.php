@@ -5,7 +5,7 @@
 <!-- Swiper -->
 <div class="swiper-container">
     <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="img/b1.jpg"></div>
+        <div class="slide1 swiper-slide"></div>
         <div class="swiper-slide"><img src="img/b1.jpg"></div>
         <div class="swiper-slide"><img src="img/b2.jpg"></div>
         <div class="swiper-slide"><img src="img/b3.jpg"></div>
