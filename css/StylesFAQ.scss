@@ -10,8 +10,8 @@ $textCol: #575757;
 
 @font-face {
     font-family: 'balooo';
-    src: url('/fonts/baloo-regular-webfont.woff2') format('woff2'),
-         url('/fonts/baloo-regular-webfont.woff') format('woff');
+    src: url('../fonts/baloo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/baloo-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -112,7 +112,9 @@ h2{
         display: grid;
         justify-content: center;
 
-
+        .pluniverse, .plysdyr, .safety, .maalgruppe, .ownteddy, .mission, .charity{
+            min-width: 1056px;
+        }
     
         div{
             max-width: 1200px;
