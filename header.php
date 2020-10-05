@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-</head>
-
 <body>
 
  <header class="container-fluid d-flex px-0 flex-md-wrap justify-content-between align-items-center">
@@ -30,5 +23,3 @@
 
 <script>
 </script>
-</body>
-</html>

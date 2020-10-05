@@ -1,5 +1,3 @@
-
-
 <div class="d-md-none fullScreenClickDetect"></div>
 <div class="d-md-none burgerMenu">
 
@@ -16,5 +14,3 @@
 
 
 
-</body>
-</html>
