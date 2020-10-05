@@ -47,7 +47,7 @@ h2{
     }
 
     .faqbottom{
-        border-bottom: solid $blue 2px;
+        border-bottom: solid $blue 1px;
     }
 
     .visible{
@@ -55,14 +55,14 @@ h2{
         font-family: poppins;
         font-size: 14px;
         margin: 0;
-        border-left: solid $blue 2px;
-        border-right: solid $blue 2px;
-        border-top: solid $blue 2px;
+        border-left: solid $blue 1px;
+        border-right: solid $blue 1px;
+        border-top: solid $blue 1px;
     }
 
     .bottomQuestion{
         border-top: none;
-        border-bottom: solid $blue 2px;
+        border-bottom: solid $blue 1px;
     }
 
     h2{
@@ -72,9 +72,9 @@ h2{
 
 .faqquestion{
     // border: 2px solid $blue;
-    border-left: solid $blue 2px;
-    border-right: solid $blue 2px;
-    border-top: solid $blue 2px;
+    border-left: solid $blue 1px;
+    border-right: solid $blue 1px;
+    border-top: solid $blue 1px;
     display: flex;
     align-items: center;
 
@@ -108,12 +108,31 @@ h2{
         line-height: 28px;
     }
 
-    .faqcontainer{
+    .faqWrapWrap{
+        // display: flex;
+        // justify-content: center;
+
+
         display: grid;
         justify-content: center;
+        grid-template-columns: 100%;
+        padding: 6vw;
+    }
+
+    .faqcontainer{
+        // display: grid;
+        // justify-content: center;
+        // grid-template-columns: 100%;
+        justify-self: center;
+        // width: calc(94vw);
+        // padding: 0 6v;
+
+        // .faqquestion{
+            
+        // }
 
         .pluniverse, .plysdyr, .safety, .maalgruppe, .ownteddy, .mission, .charity{
-            min-width: 1056px;
+            width: calc(94vw);
         }
     
         div{
