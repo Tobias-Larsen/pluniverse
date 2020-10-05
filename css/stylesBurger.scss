@@ -4,7 +4,7 @@ $fontSizeMenu : 18px;
 .burgerMenu{
   display: block;
   position: absolute;
-  background: #AAAAAA;
+  background: #E53333;
   height: 100%;
   width: 0;
   right: 0;
@@ -46,9 +46,13 @@ $fontSizeMenu : 18px;
   height: 100%;
   position: absolute;
   width: 100%;
-  background: linear-gradient(-90deg, gray, transparent);
-  opacity: 0.4;
+  background: linear-gradient(-90deg, #E53333, transparent);
+  opacity: 0.8;
   top: 0;
   display: none;
+}
+
+.lock-scroll {
+  overflow: hidden;
 }
 
