@@ -17,9 +17,6 @@
 <script>
     $(function () {
 
-
-
-
         function showMenu() {
             $("body").animate({
                 'margin-left' : "-250px"
