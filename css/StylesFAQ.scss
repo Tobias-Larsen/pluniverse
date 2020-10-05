@@ -1,0 +1,151 @@
+$blue: #1B5BDB;
+$orange: #F49B0C;
+$textCol: #575757;
+
+@mixin poppins{
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'balooo';
+    src: url('../fonts/baloo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/baloo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: "balooo";
+    text-align: center;
+    font-size: 32px;
+}
+
+.blue{
+    color: $blue;
+    margin: 24px 0 !important;
+}
+
+.orange{
+    font-family: "balooo";
+    text-align: left;
+    font-size: 16px;
+    color: $orange;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.faqcontainer{
+    padding: 6.4vw;
+
+    .faqhidden{
+        display: none;
+    }
+
+    .faqbottom{
+        border-bottom: solid $blue 1px;
+    }
+
+    .visible{
+        padding: 1rem;
+        font-family: poppins;
+        font-size: 14px;
+        margin: 0;
+        border-left: solid $blue 1px;
+        border-right: solid $blue 1px;
+        border-top: solid $blue 1px;
+    }
+
+    .bottomQuestion{
+        border-top: none;
+        border-bottom: solid $blue 1px;
+    }
+
+    h2{
+        margin: 8px 0;
+    }
+}
+
+.faqquestion{
+    // border: 2px solid $blue;
+    border-left: solid $blue 1px;
+    border-right: solid $blue 1px;
+    border-top: solid $blue 1px;
+    display: flex;
+    align-items: center;
+
+    .faqImgWrap{
+        padding: 0 0.5rem 0 1rem;
+        display: flex;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px){
+
+    .faqcontainer{
+        padding: 5.3vw;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .orange{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .blue{
+        margin: 32px 0 !important;
+    }
+
+    .faqWrapWrap{
+        // display: flex;
+        // justify-content: center;
+
+
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 100%;
+        padding: 6vw;
+    }
+
+    .faqcontainer{
+        // display: grid;
+        // justify-content: center;
+        // grid-template-columns: 100%;
+        justify-self: center;
+        // width: calc(94vw);
+        // padding: 0 6v;
+
+        // .faqquestion{
+            
+        // }
+
+        .pluniverse, .plysdyr, .safety, .maalgruppe, .ownteddy, .mission, .charity{
+            width: calc(94vw);
+        }
+    
+        div{
+            max-width: 1200px;
+        }
+        .visible{
+            font-size: 16px;
+        }
+    }
+    
+}
