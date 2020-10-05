@@ -7,8 +7,7 @@
 
 <body>
 
-
-<header class="container-fluid d-flex px-0 flex-md-wrap justify-content-between align-items-center">
+ <header class="container-fluid d-flex px-0 flex-md-wrap justify-content-between align-items-center">
 
     <div class="Header-section1 py-md-4 px-4">
         <img class="topLogo" src="img/Toplogo.png" alt="Toplogo">
