@@ -92,6 +92,7 @@
 <script>
 
     $(".pluniverse .faqquestion").click(function(){
+        $(".faqcontainer p").not(".pluniverse p").slideUp();
         $(".pluniverse p").slideToggle();
         
         let src = ($(".pluniverse .faqquestion img").attr("src") === "img/minusImg.png")
@@ -101,6 +102,8 @@
     });
 
     $(".plysdyr .faqquestion").click(function(){
+        $(".faqcontainer p").not(".plysdyr p").slideUp();
+
         $(".plysdyr p").slideToggle();
         $(".plysdyr p").toggleClass("faqhidden");
         
@@ -111,6 +114,7 @@
     });
 
     $(".safety .faqquestion").click(function(){
+        $(".faqcontainer p").not(".safety p").slideUp();
         $(".safety p").slideToggle();
         $(".safety p").toggleClass("faqhidden");
         
@@ -120,10 +124,8 @@
         $(".safety .faqquestion img").attr( "src", src );
     });
 
-
-
-
     $(".maalgruppe .faqquestion").click(function(){
+        $(".faqcontainer p").not(".maalgruppe p").slideUp();
         $(".maalgruppe p").slideToggle();
         $(".maalgruppe p").toggleClass("faqhidden");
         
@@ -134,6 +136,7 @@
     });
 
     $(".ownteddy .faqquestion").click(function(){
+        $(".faqcontainer p").not(".ownteddy p").slideUp();
         $(".ownteddy p").slideToggle();
         $(".ownteddy p").toggleClass("faqhidden");
         
@@ -144,6 +147,7 @@
     });
 
     $(".mission .faqquestion").click(function(){
+        $(".faqcontainer p").not(".mission p").slideUp();
         $(".mission p").slideToggle();
         $(".mission p").toggleClass("faqhidden");
         
@@ -154,6 +158,7 @@
     });
 
     $(".charity .faqquestion").click(function(){
+        $(".faqcontainer p").not(".charity p").slideUp();
         $(".charity p").slideToggle();
         $(".charity p").toggleClass("faqhidden");
         
