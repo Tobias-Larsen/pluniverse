@@ -28,6 +28,7 @@ h2{
 
 .blue{
     color: $blue;
+    margin: 24px 0 !important;
 }
 
 .orange{
@@ -106,6 +107,10 @@ h2{
     .orange{
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .blue{
+        margin: 32px 0 !important;
     }
 
     .faqWrapWrap{
