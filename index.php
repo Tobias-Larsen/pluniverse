@@ -46,11 +46,14 @@ include 'burgermenu.php';
 include 'forsideSwiper.php';
 ?>
 
-
+<?php
+include 'forsidevalue.php'
+?>
 
 <?php
 include 'faq.php'; /*Daniel */
 ?>
+
 
 
 
