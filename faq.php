@@ -7,8 +7,6 @@
 
 <body>
 
-
-
 <div class="faqcontainer">
     <h2 class="blue">De hurtige FAQ</h2>
 
