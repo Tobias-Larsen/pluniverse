@@ -18,7 +18,7 @@
 
 
     <?php
-    include 'imports.php'
+    include 'importProdukter.php'
     ?>
 
     <!--<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">-->
@@ -42,6 +42,9 @@ include 'header.php';
 include 'burgermenu.php';
 ?>
 
+<?php
+include 'alleProdukter.php';
+?>
 
 
 
