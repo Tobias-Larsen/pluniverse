@@ -38,7 +38,7 @@ img {
   max-width: 100%; /* Bredde må maks fylde 100% */
   height: auto; /* Højden skal tilpasse sig */
 }
-
+ 
 
 .topLogo{
   width: 154px;
@@ -155,7 +155,7 @@ header{
     margin-left: 50%;
 
 
-    > .topLogo{
+    > a .topLogo{
       width: 180px;
       height: 64px;
     }
@@ -186,7 +186,7 @@ header{
     transform: translateX(-50%);
     margin-left: 50%;
 
-    > .topLogo{
+    > a .topLogo{
       width: 200px;
       height: 72px;
     }

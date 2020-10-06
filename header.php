@@ -3,7 +3,9 @@
  <header class="container-fluid d-flex px-0 flex-md-wrap justify-content-between align-items-center">
 
     <div class="Header-section1 py-md-4 px-4">
+        <a href="index.php">
         <img class="topLogo" src="img/Toplogo.png" alt="Toplogo">
+        </a>
     </div>
 
     <div class="threeIcons d-flex px-4">
