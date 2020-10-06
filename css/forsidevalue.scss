@@ -1,0 +1,120 @@
+.frontValues{
+  max-width: 400px;
+
+  }
+
+.valueTitel {
+  width: 244px;
+  height: 84px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+
+
+  margin-top: -100px;
+  margin-bottom: 100px;
+  z-index: 99999;
+  position: absolute;
+}
+
+
+.frontValues:nth-child(odd){
+
+  img{
+    position: relative;
+    min-width: 200px;
+    min-height: 300px;
+    width: 60vmin;
+    margin-left: auto;
+  }
+
+  .valueTitel{
+
+
+    h2{
+
+    }
+  }
+
+  p{
+    margin: 5px;
+  }
+
+  a{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+  }
+  a:hover{
+    color: black;
+  }
+
+}
+
+.frontValues:nth-child(even) {
+
+  img{
+    position: relative;
+    left: 0;
+    min-width: 200px;
+    min-height: 300px;
+    width: 60vmin;
+  }
+
+  .valueTitel{
+
+    right: 0;
+
+    h2{
+
+    }
+  }
+
+  p{
+
+  }
+
+  a{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+  }
+  a:hover{
+    color: black;
+  }
+
+}
+
+
+.danskDesign{
+  .valueTitel{
+    background: #8C2EEF;
+  }
+}
+
+.certifikater{
+  .valueTitel{
+    background: #28DB28;
+  }
+}
+
+.bamsepanelet{
+  .valueTitel{
+    background: #1B5BDB;
+  }
+}
+
+.events{
+  .valueTitel{
+    background: #E53333;
+  }
+}
+
+.historierne{
+  .valueTitel{
+    background: #F49B0C;
+  }
+}
