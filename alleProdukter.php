@@ -6,7 +6,7 @@
         <div class="Hej ml-3 mt-3 position-absolute"><p>Haj</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
         <div class="produktbillede1"></div>
-        <button type="button"class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button>
+        <button type="button"class="produktBTN text-light d-flex align-items-center justify-content-center btn position-absolute">SE PRODUKT</button>
     </div>
 
     <div class="mb-4 col-sm-12 col-md-6 col-lg-4">
