@@ -2,13 +2,13 @@
 <div class="d-md-none burgerMenu">
 
     <div class="menuLinkContainer">
-    <a class="menuLink"> Produkter </a>
+    <a href="produkter.php" class="menuLink"> Produkter </a>
 
-    <a class="menuLink"> Design din egen </a>
+    <a href="#" class="menuLink"> Design din egen </a>
 
-    <a class="menuLink"> Om os </a>
+    <a href="omos.php" class="menuLink"> Om os </a>
 
-    <a class="menuLink"> Kontakt os </a>
+    <a href="kontakt.php" class="menuLink"> Kontakt os </a>
     </div>
 </div>
 
