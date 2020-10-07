@@ -2,20 +2,6 @@ $blue: #1B5BDB;
 $orange: #F49B0C;
 $textCol: #575757;
 
-@mixin poppins{
-    font-family: poppins, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'balooo';
-    src: url('../fonts/baloo-regular-webfont.woff2') format('woff2'),
-         url('../fonts/baloo-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
