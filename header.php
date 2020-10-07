@@ -21,6 +21,14 @@
         <div class="px-4"><a href="designdinegen.php#">Design din egen</a></div>
         <div class="px-4"><a href="omos.php#">Om os</a></div>
         <div class="px-4"><a href="kontakt.php#">Kontakt os</a></div>
+
+        <div class="PriseB d-flex flex-row text-light align-items-center justify-content-center px-3 position-absolute">
+            <div class="pr-2"><p>Prisberegner</p></div>
+            <div class="">
+                <i class="fas fa-calculator"></i>
+            </div>
+        </div>
+
     </div>
 </div>
 
