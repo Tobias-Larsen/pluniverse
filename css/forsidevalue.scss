@@ -15,7 +15,6 @@
 
 
   margin-top: -100px;
-  margin-bottom: 100px;
   z-index: 99999;
   position: absolute;
 }
@@ -41,12 +40,20 @@
 
   p{
     margin: 5px;
+
+    padding: 1rem;
+    font-family: poppins;
+    font-size: 14px;
   }
 
   a{
     font-size: 14px;
     color: black;
     font-weight: bold;
+
+  margin-left: 4px;
+    padding-left: 1rem;
+
   }
   a:hover{
     color: black;
@@ -66,7 +73,9 @@
 
   .valueTitel{
 
-    right: 0;
+    right: -34%;
+    margin-right: 26px;
+    position: relative;
 
     h2{
 
@@ -74,13 +83,19 @@
   }
 
   p{
-
+    padding: 1rem;
+    padding-top: 2rem;
+    font-family: poppins;
+    font-size: 14px;
+    margin: 5px;
   }
 
   a{
     font-size: 14px;
     color: black;
     font-weight: bold;
+
+    padding-left: 1rem;
   }
   a:hover{
     color: black;
@@ -116,5 +131,139 @@
 .historierne{
   .valueTitel{
     background: #F49B0C;
+  }
+}
+
+
+@media screen and (min-width: 768px){
+  .frontValues:nth-child(even) {
+    max-height: 400px;
+
+    .valueContent{
+      position: relative;
+      top: -250px;
+      left: 60%;
+    }
+
+  img{
+    left: -50%;
+  }
+
+  }
+
+  .frontValues:nth-child(odd) {
+    max-height: 400px;
+
+
+    .valueContent{
+      position: relative;
+      top: -250px;
+      left: -50%;
+    }
+
+    img{
+      left: 50%;
+    }
+  }
+
+
+  p{
+    margin: 5px;
+
+    padding: 1rem;
+    font-family: poppins;
+    font-size: 16px;
+  }
+
+  a{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+
+    margin-left: 4px;
+    padding-left: 1rem;
+
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .frontValues:nth-child(even) {
+    max-height: 700px;
+    margin-bottom: -130px;
+
+    .valueContent{
+      position: relative;
+      top: -325px;
+      left: 70%;
+    }
+
+
+    p{
+      margin: 5px;
+
+      padding: 1rem;
+      font-family: poppins;
+      font-size: 18px;
+    }
+
+    a{
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+
+      margin-left: 4px;
+      padding-left: 1rem;
+
+    }
+
+    img{
+      width: 600px;
+      height: 500px;
+      max-width: 600px;
+      left: -120%;
+    }
+
+    .valueTitel {
+
+      right: -37%;
+    }
+
+  }
+
+  .frontValues:nth-child(odd) {
+    max-height: 700px;
+    margin-bottom: -150px;
+
+    p{
+      margin: 5px;
+
+      padding: 1rem;
+      font-family: poppins;
+      font-size: 18px;
+    }
+
+    a{
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+
+      margin-left: 4px;
+      padding-left: 1rem;
+
+    }
+
+    .valueContent{
+      position: relative;
+      top: -340px;
+      left: -60%;
+    }
+
+    img{
+      width: 600px;
+      height: 500px;
+      max-width: 600px;
+      left: 60%;
+    }
   }
 }
