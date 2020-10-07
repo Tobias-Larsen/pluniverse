@@ -1,10 +1,11 @@
-<body>
 
- <header class="container-fluid d-flex px-0 flex-md-wrap justify-content-between align-items-center">
+<header class="px-0 container-fluid pb-4">
+
+<div class="container-fluid pt-3 d-flex flex-md-row px-0 flex-md-wrap justify-content-between align-items-center">
 
     <div class="Header-section1 py-md-4 px-4">
         <a href="index.php">
-        <img class="topLogo" src="img/Toplogo.png" alt="Toplogo">
+            <img class="topLogo" src="img/Toplogo.png" alt="Toplogo">
         </a>
     </div>
 
@@ -14,12 +15,23 @@
         </div>
     </div>
 
+
     <div class="nav-Desktop w-100 d-none d-md-flex flex-row justify-content-md-center">
         <div class="px-4"><a href="produkter.php">Produkter</a></div>
         <div class="px-4"><a href="designdinegen.php#">Design din egen</a></div>
         <div class="px-4"><a href="omos.php#">Om os</a></div>
         <div class="px-4"><a href="kontakt.php#">Kontakt os</a></div>
     </div>
+</div>
+
+    <div class="container-fluid headerBeregning d-md-none my-4 d-flex align-items-center justify-content-center flex-row text-light">
+
+        <div class="pr-2"><p>1 produkt i prisberegneren</p></div>
+        <div class="pr-2">
+            <i class="fas fa-calculator"></i>
+        </div>
+    </div>
+
 </header>
 
 
