@@ -17,7 +17,7 @@ $fontSizeMenu : 18px;
   text-align: center;
   white-space: pre-line;
 
-  z-index: 99999;
+  z-index: 999999;
 
 
 
@@ -50,6 +50,7 @@ $fontSizeMenu : 18px;
   opacity: 0.8;
   top: 0;
   display: none;
+  z-index: 999999;
 }
 
 .lock-scroll {
