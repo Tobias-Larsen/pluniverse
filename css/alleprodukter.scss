@@ -1,0 +1,87 @@
+$primaryfarver: #8C2EEF;
+$hovedskrift: 32px;
+$brødtekst: 16px;
+$btnFontSize: 14px;
+$textcolor:#575757;
+$secondaryFarve:#DD7128;
+
+
+.Pnavn {
+  font-size: $hovedskrift;
+  color: $primaryfarver;
+}
+.produktBTN{
+  background-color: $secondaryFarve!important;
+  border: none;
+}
+
+.textInfo {
+  font-size: $brødtekst;
+  color: #575757;
+}
+
+.produktbillede1 {
+  background-image: url("../img/LayingDino-3Quarter.png");
+  height: 367px;
+  background-color: #F6F6F6;
+  background-size: 75%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+}
+
+.alleProdukter{
+   padding-bottom: 48px;
+}
+
+.produktBTN {
+  bottom: 24px;
+  right: 40px;
+  width: 114px;
+  height: 36px;
+  font-size: $btnFontSize;
+}
+.Hej{
+  font-size: 18px;
+  color: $textcolor;
+}
+
+.prise1{
+  font-size: 16px;
+  color: $textcolor;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .Pnavn {
+    padding-top: 47px !important;
+  }
+  .produktbillede1 {
+    background-image: url("../img/LayingDino-3Quarter.png");
+    height: 367px;
+    background-color: #F6F6F6;
+    background-size: 75%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+  .alleProdukter{
+    padding-bottom: 80px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .Pnavn {
+    padding-top: 47px !important;
+  }
+
+  .alleProdukter{
+    max-width: 1200px;
+    padding-bottom: 120px;
+    left: auto;
+    right: auto;
+  }
+
+}

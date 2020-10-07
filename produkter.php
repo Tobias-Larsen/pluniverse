@@ -17,16 +17,12 @@
     <meta name="copyright" content="Information om copyright">
 
 
-<?php
-include 'imports.php'
-?>
+    <?php
+    include 'importProdukter.php'
+    ?>
 
-    <link href="css/stylesIndex.min.css" rel="stylesheet" type="text/css">
-    <link href="css/forsidevalue.min.css" rel="stylesheet" type="text/css">
-
-    <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,16 +43,9 @@ include 'burgermenu.php';
 ?>
 
 <?php
-include 'forsideSwiper.php';
+include 'alleProdukter.php';
 ?>
 
-<?php
-include 'forsidevalue.php'
-?>
-
-<?php
-include 'faq.php'; /*Daniel */
-?>
 
 
 
@@ -64,41 +53,12 @@ include 'faq.php'; /*Daniel */
 <?php
 include 'footer.php';
 ?>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    $(function () {
-
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            // Disable preloading of all images
-            preloadImages: false,
-            // Enable lazy loading
-            lazy: true
-        })
-    });
-</script>
 
 
 
-<script>
 
-    $(function () {
-
-    });
-
-</script>
 </body>
 </html>

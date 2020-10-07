@@ -44,12 +44,26 @@ img {
   width: 154px;
 }
 
+.headerBeregning{
+  height: 42px;
+  width: 100%;
+  background-color: #8C2EEF;
+  cursor: pointer;
+   }
+
+.PriseB{
+  height: 42px;
+   background-color: #8C2EEF;
+  cursor: pointer;
+  right: 0;
+  font-size: 14px;
+  border-left: solid;
+}
 
 
 header{
   height: 102px;
   padding: 0 24px 0 24px;
-  border-bottom: solid 1px #1B5BDB;
 
 
 
@@ -155,7 +169,7 @@ header{
     margin-left: 50%;
 
 
-    > .topLogo{
+    > a .topLogo{
       width: 180px;
       height: 64px;
     }
@@ -186,7 +200,7 @@ header{
     transform: translateX(-50%);
     margin-left: 50%;
 
-    > .topLogo{
+    > a .topLogo{
       width: 200px;
       height: 72px;
     }

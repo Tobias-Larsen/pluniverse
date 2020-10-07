@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-</head>
-
-<body>
-
 <div class="faqWrapWrap">
 <div class="faqcontainer">
     <h2 class="blue">De hurtige FAQ</h2>
@@ -170,6 +161,3 @@
 
 
 </script>
-
-</body>
-</html>

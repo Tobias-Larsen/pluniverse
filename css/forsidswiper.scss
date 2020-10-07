@@ -1,26 +1,25 @@
 
-
-
 body {
   font-size: 14px;
-  color:#000;
+  color: #000;
   margin: 0;
   padding: 0;
 }
 
-.slide1{
+.slide1 {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-   background-size: cover;
- }
+  background-size: cover;
+}
 
 
 .swiper-container {
   width: 100%;
   height: 60vmin;
- }
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -37,29 +36,51 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
- }
+}
+
 :root {
-  --swiper-theme-color: #1B5BDB!important;
+  --swiper-theme-color: #1B5BDB !important;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 4px;
-   background-color: #1B5BDB;
+  background-color: #1B5BDB;
 }
 
-@media screen and (min-width: 768px){
+.btn-knappen{
+  bottom: 35px;
+  font-size: 14px;
+  background-color: #DD7128;
+  border: none;
+}
 
-.swiper-container {
-  width: 100%;
-  height: 301px;
- }
+
+
+
+@media screen and (min-width: 768px) {
+
+  .swiper-container {
+    width: 100%;
+    height: 60vmin;
+  }
+  .btn-knappen{
+    bottom: 36px;
+    font-size: 14px;
+    background-color: #DD7128;
+    border: none;
+  }
 };
 
-@media screen and (min-width: 1200px){
 
-.swiper-container {
-  width: auto;
-   margin-top: 40px;
-  height: 600px;
- }
+@media screen and (min-width: 1200px) {
+
+  .swiper-container {
+    width: auto;
+    height: 600px;
+  }
+  .btn-knappen{
+    font-size: 14px;
+    background-color: #DD7128;
+    border: none;
+  }
 };

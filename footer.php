@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-
-<html>
-
-<head>
-</head>
-
-<body>
-
-
-
-<footer>
-
-
+<footer id="kontakt">
     <div class="fbtop">
         <h2>Kontakt</h2>
 
@@ -50,5 +37,3 @@
 
 <script>
 </script>
-</body>
-</html>
