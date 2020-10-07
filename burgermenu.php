@@ -8,7 +8,7 @@
 
     <a href="omos.php" class="menuLink"> Om os </a>
 
-    <a href="kontakt.php" class="menuLink"> Kontakt os </a>
+    <a href="#kontakt" class="menuLink"> Kontakt os </a>
     </div>
 </div>
 
@@ -80,6 +80,13 @@
         });
 
         $(".fullScreenClickDetect").click(function() {
+            if(burgermenuShown === true)
+            {
+                hideMenu();
+            }
+        });
+
+        $(".menuLink").click(function() {
             if(burgermenuShown === true)
             {
                 hideMenu();

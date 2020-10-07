@@ -18,7 +18,7 @@
         <div class="px-4"><a href="produkter.php">Produkter</a></div>
         <div class="px-4"><a href="designdinegen.php#">Design din egen</a></div>
         <div class="px-4"><a href="omos.php#">Om os</a></div>
-        <div class="px-4"><a href="kontakt.php#">Kontakt os</a></div>
+        <div class="px-4"><a href="#kontakt">Kontakt os</a></div>
     </div>
 </header>
 

@@ -1,4 +1,4 @@
-<footer>
+<footer id="kontakt">
     <div class="fbtop">
         <h2>Kontakt</h2>
 
