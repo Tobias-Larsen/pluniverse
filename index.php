@@ -76,7 +76,17 @@ include 'footer.php';
 
 <script>
 
-    AOS.init();
+    AOS.init({
+        // Global settings:
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+
+    });
+
     $(function () {
 
         var swiper = new Swiper('.swiper-container', {
