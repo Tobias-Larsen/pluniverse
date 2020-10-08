@@ -18,8 +18,8 @@
 
         <div class="nav-Desktop balooFont w-100 d-none d-md-flex flex-row justify-content-md-center">
             <div class="px-4"><a href="produkter.php">Produkter</a></div>
-            <div class="px-4"><a href="designdinegen.php#">Design din egen</a></div>
-            <div class="px-4"><a href="omos.php#">Om os</a></div>
+            <div class="px-4"><a href="#">Design din egen</a></div>
+            <div class="px-4"><a href="#">Om os</a></div>
             <div class="px-4"><a href="#kontakt">Kontakt os</a></div>
 
             <div class="PriseB d-flex flex-row text-light align-items-center justify-content-center px-3 position-absolute">
