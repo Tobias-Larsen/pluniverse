@@ -26,6 +26,9 @@ include 'imports.php'
 
     <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Fade in Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link href="css/StylesFAQ.min.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -70,7 +73,22 @@ include 'footer.php';
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
 <script>
+
+    AOS.init({
+        // Global settings:
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        once: true, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+
+    });
+
     $(function () {
 
         var swiper = new Swiper('.swiper-container', {

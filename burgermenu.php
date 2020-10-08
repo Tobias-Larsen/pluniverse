@@ -9,7 +9,7 @@
 
     <a href="omos.php" class="menuLink"> Om os </a>
 
-    <a href="#kontakt" class="menuLink"> Kontakt os </a>
+    <a href="index.php#kontakt" class="menuLink"> Kontakt os </a>
     </div>
 </div>
 
@@ -21,10 +21,10 @@
         function showMenu() {
             $("body").animate({
                 'margin-left' : "-250px"
-            }, 600);
+            }, 300);
             $(".burgerMenu").animate({
                 'width' : "250px"
-            }, 600);
+            }, 300);
 
             $(".threeIcons").animate({
                 'margin-left' : "-=200px"
@@ -47,12 +47,12 @@
         function hideMenu() {
             $("body").animate({
                 'margin-left' : "0"
-            }, 600);
+            }, 400);
 
             $(".burgerMenu a").fadeOut(300);
             $(".burgerMenu").animate({
                 'width' : "0"
-            }, 600);
+            }, 400);
 
             $(".threeIcons").animate({
                 'margin-left' : "+=150px"

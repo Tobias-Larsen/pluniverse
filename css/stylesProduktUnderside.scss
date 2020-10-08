@@ -34,16 +34,18 @@ body{
 
 .produktUContainer{
     padding: 25px 6.4vw 0 6.4vw;
+
+    h2{
+        margin: 0;
+        padding: 0;
+        color: $red;
+        font-family: "baloo";
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
 }
 
-h2{
-    margin: 0;
-    padding: 0;
-    color: $red;
-    font-family: "baloo";
-    font-size: 32px;
-    margin-bottom: 16px;
-}
+
 
 .PUImgContainer{
     display: grid;
