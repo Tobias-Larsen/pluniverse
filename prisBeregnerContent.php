@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="productImage"></div>
+        <div class="productImage productImg1"></div>
 
         <div class="priceContainer d-flex flex-wrap align-self-end">
             <p class="ml-auto mb-0">Vælg antal</p>
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div class="productImage"></div>
+        <div class="productImage productImg2"></div>
 
         <div class="priceContainer d-flex flex-wrap align-self-end">
             <p class="ml-auto mb-0">Vælg antal</p>
@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <div class="productImage"></div>
+        <div class="productImage productImg3"></div>
 
         <div class="priceContainer d-flex flex-wrap align-self-end">
             <p class="ml-auto mb-0">Vælg antal</p>
