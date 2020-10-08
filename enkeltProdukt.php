@@ -15,7 +15,7 @@
     include 'imports.php'
     ?>
 
-    <link href="css/prisBeregnerContentStyles.min.css" rel="stylesheet" type="text/css">
+    <link href="css/stylesProduktUnderside.min.css" rel="stylesheet" type="text/css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -27,13 +27,9 @@
 include 'header.php';
 ?>
 
-<?php
-include 'burgermenu.php';
-?>
-
 
 <?php
-include 'prisBeregnerContent.php';
+include 'produktunderside.php';
 ?>
 
 <?php

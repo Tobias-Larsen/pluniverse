@@ -22,6 +22,30 @@
 
 .frontValues:nth-child(odd){
 
+  .valueContent{
+    p{
+      margin: 5px;
+
+      padding: 1rem;
+      font-family: poppins;
+      font-size: 14px;
+    }
+
+    a{
+      font-size: 14px;
+      color: black;
+      font-weight: bold;
+
+      margin-left: 4px;
+      padding-left: 1rem;
+
+    }
+    a:hover{
+      color: black;
+    }
+  }
+
+
   img{
     position: relative;
     min-width: 200px;
@@ -38,30 +62,32 @@
     }
   }
 
-  p{
-    margin: 5px;
 
-    padding: 1rem;
-    font-family: poppins;
-    font-size: 14px;
-  }
-
-  .valueContent a{
-    font-size: 14px;
-    color: black;
-    font-weight: bold;
-
-  margin-left: 4px;
-    padding-left: 1rem;
-
-  }
-  a:hover{
-    color: black;
-  }
 
 }
 
 .frontValues:nth-child(even) {
+
+  .valueContent{
+    p{
+      padding: 1rem;
+      padding-top: 2rem;
+      font-family: poppins;
+      font-size: 14px;
+      margin: 5px;
+    }
+
+    a{
+      font-size: 14px;
+      color: black;
+      font-weight: bold;
+
+      padding-left: 1rem;
+    }
+    a:hover{
+      color: black;
+    }
+  }
 
   img{
     position: relative;
@@ -82,24 +108,7 @@
     }
   }
 
-  p{
-    padding: 1rem;
-    padding-top: 2rem;
-    font-family: poppins;
-    font-size: 14px;
-    margin: 5px;
-  }
 
-  .valueContent a{
-    font-size: 14px;
-    color: black;
-    font-weight: bold;
-
-    padding-left: 1rem;
-  }
-  a:hover{
-    color: black;
-  }
 
 }
 
@@ -159,6 +168,24 @@
       position: relative;
       top: -250px;
       left: -50%;
+
+      p{
+        margin: 5px;
+
+        padding: 1rem;
+        font-family: poppins;
+        font-size: 16px;
+      }
+
+      a{
+        font-size: 16px;
+        color: black;
+        font-weight: bold;
+
+        margin-left: 4px;
+        padding-left: 1rem;
+
+      }
     }
 
     img{
@@ -167,27 +194,11 @@
   }
 
 
-  p{
-    margin: 5px;
 
-    padding: 1rem;
-    font-family: poppins;
-    font-size: 16px;
-  }
-
-  .valueContent a{
-    font-size: 16px;
-    color: black;
-    font-weight: bold;
-
-    margin-left: 4px;
-    padding-left: 1rem;
-
-  }
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1350px) {
   .frontValues:nth-child(even) {
     max-height: 700px;
     margin-bottom: -130px;
@@ -196,26 +207,26 @@
       position: relative;
       top: -325px;
       left: 70%;
+
+      p{
+        margin: 5px;
+
+        padding: 1rem;
+        font-family: poppins;
+        font-size: 18px;
+      }
+
+      a{
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+
+        margin-left: 4px;
+        padding-left: 1rem;
+
+      }
     }
 
-
-    p{
-      margin: 5px;
-
-      padding: 1rem;
-      font-family: poppins;
-      font-size: 18px;
-    }
-
-    .valueContent a{
-      font-size: 18px;
-      color: black;
-      font-weight: bold;
-
-      margin-left: 4px;
-      padding-left: 1rem;
-
-    }
 
     img{
       width: 600px;
@@ -235,28 +246,28 @@
     max-height: 700px;
     margin-bottom: -150px;
 
-    p{
-      margin: 5px;
-
-      padding: 1rem;
-      font-family: poppins;
-      font-size: 18px;
-    }
-
-    .valueContent a{
-      font-size: 18px;
-      color: black;
-      font-weight: bold;
-
-      margin-left: 4px;
-      padding-left: 1rem;
-
-    }
-
     .valueContent{
       position: relative;
       top: -340px;
       left: -60%;
+
+      p{
+        margin: 5px;
+
+        padding: 1rem;
+        font-family: poppins;
+        font-size: 18px;
+      }
+
+      a{
+        font-size: 18px;
+        color: black;
+        font-weight: bold;
+
+        margin-left: 4px;
+        padding-left: 1rem;
+
+      }
     }
 
     img{
