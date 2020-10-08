@@ -40,6 +40,10 @@ img {
 }
 
 
+$primaryFont:Baloo, sans-serif;;
+$secondaryFont:Poppins, sans-serif;;
+
+
 .topLogo{
   width: 154px;
 }
@@ -49,7 +53,11 @@ img {
   width: 100%;
   background-color: #8C2EEF;
   cursor: pointer;
+  top: 0;
+  z-index: 20;
+  font-family: $brødtekst;
 }
+
 
 .PriseB{
   height: 42px;
@@ -58,6 +66,7 @@ img {
   right: 0px;
   font-size: 14px;
   border-left: solid;
+  font-family: $primaryFont;
  }
 .Antallet{
   background-color: #F49B0C!important;
@@ -68,8 +77,8 @@ img {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-left: 105px;
-  margin-bottom: 10px;
+  margin-left: 126px;
+  margin-bottom: 15px;
 
   > p{
     font-size: 12px!important;
@@ -78,8 +87,7 @@ img {
 
 
 header{
-  height: 136px;
-  padding: 0 24px 0 24px;
+   padding: 0 24px 0 24px;
 
 
 
@@ -95,8 +103,6 @@ header{
   a:hover {
     color: white;
   }
-
-
 
   .threeIcons{
     font-size: 25px;
@@ -193,9 +199,8 @@ header{
 
   div > a{
     text-decoration: dotted;
-    color: white;
-    font-size: 18px;
-  }
+     font-size: 18px;
+   }
   .nav-Desktop{
     height: 42px;
     align-items: center;
@@ -224,5 +229,5 @@ header{
     right: 50%;
     transform: translateX(600px);
     border-right: solid;
-  }
+    }
 }

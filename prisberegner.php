@@ -27,6 +27,10 @@
 include 'header.php';
 ?>
 
+<?php
+include 'burgermenu.php';
+?>
+
 
 <?php
 include 'prisBeregnerContent.php';

@@ -1,10 +1,16 @@
 
-<section>
+<section class="">
     <h1 class="py-5 text-center text-orange balooFont m-0">Prisberegner</h1>
 
     <div class="productCard mx-4 mb-4 py-3 px-3 bg-lightGrey border-darkGrey">
         <h3 class="balooFont text-blue pb-2">Haj</h3>
-        <i class="fas fa-trash-alt ml-auto"></i>
+        <div class="trashContainer ml-auto mb-1 d-flex flex-column align-items-center justify-content-end">
+            <div class="lid bg-darkGrey"></div>
+
+            <div class="can bg-darkGrey d-flex align-items-center">
+                <hr class="canLine bg-white">
+            </div>
+        </div>
 
         <div class="productImage productImg1"></div>
 
@@ -24,7 +30,13 @@
 
     <div class="productCard mx-4 mb-4 py-3 px-3 bg-lightGrey border-darkGrey">
         <h3 class="balooFont text-blue pb-2">Krokodille</h3>
-        <i class="fas fa-trash-alt ml-auto"></i>
+        <div class="trashContainer ml-auto mb-1 d-flex flex-column align-items-center justify-content-end">
+            <div class="lid bg-darkGrey"></div>
+
+            <div class="can bg-darkGrey d-flex align-items-center">
+                <hr class="canLine bg-white">
+            </div>
+        </div>
 
         <div class="productImage productImg2"></div>
 
@@ -32,7 +44,7 @@
             <p class="ml-auto mb-0">Vælg antal</p>
 
             <div class="inputContainer">
-                <input class="text-blue nr2" type="text" value="125">
+                <input class="text-blue nr2" type="text" value="250">
                 <i class="fas fa-pen"></i>
             </div>
 
@@ -44,7 +56,13 @@
 
     <div class="productCard mx-4 mb-4 py-3 px-3 bg-lightGrey border-darkGrey">
         <h3 class="balooFont text-blue pb-2">Pingvin</h3>
-        <i class="fas fa-trash-alt ml-auto"></i>
+        <div class="trashContainer ml-auto mb-1 d-flex flex-column align-items-center justify-content-end">
+            <div class="lid bg-darkGrey"></div>
+
+            <div class="can bg-darkGrey d-flex align-items-center">
+                <hr class="canLine bg-white">
+            </div>
+        </div>
 
         <div class="productImage productImg3"></div>
 
@@ -52,7 +70,7 @@
             <p class="ml-auto mb-0">Vælg antal</p>
 
             <div class="inputContainer">
-                <input class="inputNumber text-blue nr3" type="text" value="125">
+                <input class="inputNumber text-blue nr3" type="text" value="180">
                 <i class="fas fa-pen"></i>
             </div>
 
@@ -63,7 +81,15 @@
     </div>
 
 
+    <div class="addProductContainer mr-4 ml-auto d-flex align-items-center">
+        <p class="mr-2 ml-auto">Tilføj produkt</p>
+        <div class="addProduct ml-1 bg-green d-flex justify-content-center align-items-center">
+            <div class="plusLine bg-white rounded-pill"></div>
+        </div>
+    </div>
+</section>
 
+<section class="deliveryContainer mx-4">
 
 </section>
 

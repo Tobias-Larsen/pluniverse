@@ -7,4 +7,3 @@
 <link href="css/stylesFooter.min.css" rel="stylesheet" type="text/css">
 <link href="css/StylesFAQ.min.css" rel="stylesheet" type="text/css">
 <link href="css/stylesProduktUnderside.min.css" rel="stylesheet" type="text/css">
-
