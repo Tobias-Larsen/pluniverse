@@ -20,7 +20,7 @@
             <div class="px-4"><a href="produkter.php">Produkter</a></div>
             <div class="px-4"><a href="designdinegen.php#">Design din egen</a></div>
             <div class="px-4"><a href="omos.php#">Om os</a></div>
-            <div class="px-4"><a href="kontakt.php#">Kontakt os</a></div>
+            <div class="px-4"><a href="#kontakt">Kontakt os</a></div>
 
             <div class="PriseB d-flex flex-row text-light align-items-center justify-content-center px-3 position-absolute">
                 <a href="prisberegner.php"<div class="pr-2 text-white"><p>Prisberegner</p></a>
@@ -35,12 +35,12 @@
 
 </header>
 
-<div class="container-fluid headerBeregning position-sticky d-md-none d-flex align-items-center justify-content-center flex-row text-light">
-    <div class="pr-2"><p>1 produkt i prisberegneren</p></div>
+<a href="prisberegner.php"<div class="container-fluid headerBeregning position-sticky d-md-none d-flex align-items-center justify-content-center flex-row text-light">
+     <div class="pr-2"><p>1 produkt i prisberegneren</p></div>
     <div class="pr-2">
         <i class="fas fa-calculator"></i>
     </div>
-</div>
+</div></a>
 
 
 <script>
