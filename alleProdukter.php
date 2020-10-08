@@ -5,43 +5,91 @@
      <div data-aos="fade-right" class="mb-4 col-sm-12 col-md-6 col-lg-4">
         <div class="DyreNavn ml-3 mt-3 position-absolute"><p>Haj</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
-        <div class="produktbillede1"></div>
-    <a href="enkeltProdukt.php" <button type="button"class="produktBTN text-light d-flex align-items-center justify-content-center btn position-absolute">SE PRODUKT</button></a>
+        <div class="produktBilledeGeneral produktbillede1">
+            <video autoplay muted loop class="hide">
+                <source src="video/WebM/Haj.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    <a href="enkeltProdukt.php" <button type="button" class="produktBTN text-light d-flex align-items-center justify-content-center btn position-absolute">SE PRODUKT</button></a>
     </div>
 
     <div data-aos="fade-right" class="mb-4 col-sm-12 col-md-6 col-lg-4">
         <div class="DyreNavn ml-3 mt-3 position-absolute"><p>Hval</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
-    <div class="produktbillede2"></div>
-<a href="enkeltProdukt.php" <button type="button"class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
+    <div class="produktBilledeGeneral produktbillede2">
+        <video autoplay muted loop class="hide">
+            <source src="video/WebM/Hval.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<a href="enkeltProdukt.php" <button type="button" class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
     </div>
 
     <div data-aos="fade-right" class="mb-4 col-sm-12 col-md-6 col-lg-4">
         <div class="DyreNavn ml-3 mt-3 position-absolute"><p>Dinosaur</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
-    <div class="produktbillede3"></div>
-<a href="enkeltProdukt.php"<button type="button"class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
+    <div class="produktBilledeGeneral produktbillede3">
+        <video autoplay muted loop class="hide">
+            <source src="video/WebM/Dino-1.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<a href="enkeltProdukt.php"<button type="button" class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
     </div>
 
     <div data-aos="fade-right" class="mb-4 col-sm-12 col-md-6 col-lg-4">
         <div class="DyreNavn ml-3 mt-3 position-absolute"><p>Krokodille</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
-    <div class="produktbillede4"></div>
-<a href="enkeltProdukt.php" <button type="button"class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
+    <div class="produktBilledeGeneral produktbillede4">
+        <video autoplay muted loop class="hide">
+            <source src="video/WebM/Krokodille.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<a href="enkeltProdukt.php" <button type="button" class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
     </div>
 
     <div data-aos="fade-right" class="mb-4 col-sm-12 col-md-6 col-lg-4">
         <div class="DyreNavn ml-3 mt-3 position-absolute"><p>Pingvin</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
-    <div class="produktbillede5"></div>
-<a href="enkeltProdukt.php"<button type="button"class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
+    <div class="produktBilledeGeneral produktbillede5">
+        <video autoplay muted loop class="hide">
+            <source src="video/WebM/Pingvin-hjerter.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+<a href="enkeltProdukt.php"<button type="button" class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
     </div>
 
-    <div data-aos="fade-right"class="mb-4 col-sm-12 col-md-6 col-lg-4">
+    <div data-aos="fade-right" class="mb-4 col-sm-12 col-md-6 col-lg-4">
         <div class="DyreNavn ml-3 mt-3 position-absolute"><p>Elefant</p></div>
         <div class="prise1 ml-3 mt-5 position-absolute"<p>Fra 149 DKK pr. stk.</p></div>
-    <div class="produktbillede6"></div>
-    <a href="enkeltProdukt.php"<button type="button"class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
+    <div class="produktBilledeGeneral produktbillede6">
+        <video autoplay muted loop class="hide">
+            <source src="video/WebM/Elefant.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <a href="enkeltProdukt.php"<button type="button" class="produktBTN d-flex align-items-center justify-content-center btn btn-primary position-absolute">SE PRODUKT</button></a>
     </div>
 
 </div>
+
+<script>
+
+    document.querySelectorAll(".produktBilledeGeneral").forEach((e) => {
+        e.addEventListener('mouseover', () => {
+            document.querySelectorAll(".produktBilledeGeneral > video").forEach((video) => {
+                video.currentTime = 0;
+            });
+        });
+    });
+
+</script>
+
+
+
+
+
+
