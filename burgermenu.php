@@ -7,9 +7,9 @@
 
     <a href="#" class="menuLink"> Design din egen </a>
 
-    <a href="omos.php" class="menuLink"> Om os </a>
+    <a href="#" class="menuLink"> Om os </a>
 
-    <a href="index.php#kontakt" class="menuLink"> Kontakt os </a>
+    <a href="#kontakt" class="menuLink"> Kontakt os </a>
     </div>
 </div>
 

@@ -149,18 +149,40 @@
 
 
 @media screen and (min-width: 768px){
+  .frontValues{
+    p{
+      margin: 5px;
+
+      padding: 1rem;
+      font-family: poppins;
+      font-size: 16px;
+    }
+
+    a{
+      font-size: 16px;
+      color: black;
+      font-weight: bold;
+
+      margin-left: 4px;
+      padding-left: 1rem;
+
+    }
+  }
+
   .frontValues:nth-child(even) {
     max-height: 400px;
 
     .valueContent{
       position: relative;
-      top: -250px;
+      top: -290px;
       left: 60%;
+      max-width: 280px;
     }
 
   img{
     left: -50%;
   }
+
 
   }
 
@@ -170,26 +192,10 @@
 
     .valueContent{
       position: relative;
-      top: -250px;
+      top: -290px;
       left: -50%;
+      max-width: 280px;
 
-      p{
-        margin: 5px;
-
-        padding: 1rem;
-        font-family: poppins;
-        font-size: 16px;
-      }
-
-      a{
-        font-size: 16px;
-        color: black;
-        font-weight: bold;
-
-        margin-left: 4px;
-        padding-left: 1rem;
-
-      }
     }
 
     img{
@@ -211,6 +217,8 @@
       position: relative;
       top: -325px;
       left: 70%;
+
+      max-width: 370px;
 
       p{
         margin: 5px;
@@ -254,6 +262,8 @@
       position: relative;
       top: -340px;
       left: -60%;
+
+      max-width: 370px;
 
       p{
         margin: 5px;
