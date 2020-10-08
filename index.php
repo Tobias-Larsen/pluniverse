@@ -79,9 +79,9 @@ include 'footer.php';
 <script>
 
     AOS.init({
-        // Global settings:
+    /*    // Global settings:
         debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-
+*/
 
         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
         once: true, // whether animation should happen only once - while scrolling down
