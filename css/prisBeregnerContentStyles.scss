@@ -1,0 +1,71 @@
+@import "stylesUniversal.scss";
+
+
+section{
+
+  .productCard{
+    max-width: 100%;
+    border-radius: 10px;
+    border: solid 1px;
+    display: grid;
+    grid-template-columns: minmax(40px, 80px) auto 180px;
+    grid-template-rows: auto auto;
+
+    > h3{
+      font-size: 16px;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    i{
+      height: 14px;
+      color: $darkGray;
+    }
+
+    > i{
+      grid-column: 3/4;
+      grid-row: 1/2;
+    }
+
+    .productImage{
+      background-image: url("https://via.placeholder.com/80");
+      background-size: cover;
+      background-position: center;
+      height: 80px;
+      width: 100%;
+
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .priceContainer{
+      grid-column: 3/4;
+      grid-row: 2/3;
+
+      > div{
+
+        > input{
+          width: 70px;
+          font-size: 14px;
+          border: none;
+          background-color: transparent;
+          text-decoration: underline;
+          text-align: right;
+          line-height: normal;
+          margin-right: 20px;
+        }
+
+        > .fa-pen{
+          margin-left: -16px;
+        }
+      }
+
+      > div {
+        > .price{
+          font-size: 24px;
+          color: black;
+        }
+      }
+    }
+  }
+}

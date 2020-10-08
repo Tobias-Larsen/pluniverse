@@ -12,14 +12,33 @@
   font-style: normal;
 }
 
+$purple: #8C2EEF;
+$green: #28DB28;
+$blue: #1B5BDB;
+$red: #28DB28;
+$orange: #F49B0C;
+$brown: #DD7128;
+$lightGrey: #f6f6f6;
+$darkGray: #575757;
+
+.balooFont{
+  font-family: baloo, sans-serif;
+  font-size: 32px;
+}
+
+body{
+  font-family: Poppins, sans-serif;
+}
+
 $theme-colors: (
-        "purple": #8C2EEF,
-        "green": #28DB28,
-        "blue": #1B5BDB,
-        "red": #28DB28,
-        "orange": #F49B0C,
-        "brown": #DD7128,
-        "lightGrey": #f6f6f6
+        "purple": $purple,
+        "green": $green,
+        "blue": $blue,
+        "red": $red,
+        "orange": $orange,
+        "brown": $brown,
+        "lightGrey": $lightGrey,
+        "darkGrey": $darkGray
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
