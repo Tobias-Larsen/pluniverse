@@ -26,6 +26,9 @@ include 'imports.php'
 
     <link href="css/forsidswiper.min.css" rel="stylesheet" type="text/css">
 
+    <!-- Fade in Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -68,7 +71,12 @@ include 'footer.php';
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
 <script>
+
+    AOS.init();
     $(function () {
 
         var swiper = new Swiper('.swiper-container', {
