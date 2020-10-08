@@ -95,6 +95,19 @@ header{
   .nav-Desktop{
     background-color: #1B5BDB;
     font-family: $primaryFont;
+
+    > div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      > a{
+        color: white;
+        margin: auto 0;
+      }
+    }
+
+
   }
 
   .swiper-pagination-bullet:focus{
