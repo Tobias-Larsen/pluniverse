@@ -16,7 +16,7 @@
         </div>
 
 
-        <div class="nav-Desktop w-100 d-none d-md-flex flex-row justify-content-md-center">
+        <div class="nav-Desktop balooFont w-100 d-none d-md-flex flex-row justify-content-md-center">
             <div class="px-4"><a href="produkter.php">Produkter</a></div>
             <div class="px-4"><a href="designdinegen.php#">Design din egen</a></div>
             <div class="px-4"><a href="omos.php#">Om os</a></div>

@@ -44,6 +44,7 @@ $primaryFont:Baloo, sans-serif;;
 $secondaryFont:Poppins, sans-serif;;
 
 
+
 .topLogo{
   width: 154px;
 }
@@ -93,6 +94,7 @@ header{
 
   .nav-Desktop{
     background-color: #1B5BDB;
+    font-family: $primaryFont;
   }
 
   .swiper-pagination-bullet:focus{
@@ -200,10 +202,11 @@ header{
   div > a{
     text-decoration: dotted;
      font-size: 18px;
-   }
+    }
   .nav-Desktop{
     height: 42px;
     align-items: center;
+    font-family: $primaryFont;
   }
 
 }
