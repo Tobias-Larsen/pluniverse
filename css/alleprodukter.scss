@@ -32,59 +32,53 @@ $secondaryFont:Poppins, sans-serif;;
   font-family: $secondaryFont;
 }
 
+.produktBilledeGeneral{
+  background-color: $billedebackground;
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 367px;
+
+  > video{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+  }
+
+  &:hover{
+    background-image: none;
+
+    > video{
+      display: inline;
+    }
+  }
+}
+
 .produktbillede1 {
   background-image: url("../img/Havl.png");
-  height: 367px;
-  background-color: #F6F6F6;
-  background-size: 75%;
-  background-position: 50%;
-  background-repeat: no-repeat;
 }
 
 .produktbillede2 {
   background-image: url("../img/Havl2.png");
-  height: 367px;
-  background-color: $billedebackground;
-  background-size: 75%;
-  background-position: 50%;
-  background-repeat: no-repeat;
-
 }
 
 .produktbillede3 {
   background-image: url("../img/Dino1.png");
-  height: 367px;
-  background-color: $billedebackground;
-  background-size: 75%;
-  background-position: 50%;
-  background-repeat: no-repeat;
 }
 
 .produktbillede4 {
   background-image: url("../img/kro.png");
-  height: 367px;
-  background-color: $billedebackground;
-  background-size: 75%;
-  background-position: 50%;
-  background-repeat: no-repeat;
 }
 
 .produktbillede5 {
   background-image: url("../img/pHjerte.png");
-  height: 367px;
-  background-color: $billedebackground;
-  background-size: 75%;
-  background-position: 50%;
-  background-repeat: no-repeat;
 }
 
 .produktbillede6 {
   background-image: url("../img/elefant.png");
-  height: 367px;
-  background-color: $billedebackground;
-  background-size: 75%;
-  background-position: 50%;
-  background-repeat: no-repeat;
 }
 
 
