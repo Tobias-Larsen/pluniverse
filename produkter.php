@@ -18,8 +18,10 @@
 
 
     <?php
-    include 'importProdukter.php'
+    include 'imports.php'
     ?>
+
+    <link href="css/alleprodukter.min.css" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
