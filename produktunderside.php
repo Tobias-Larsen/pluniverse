@@ -18,23 +18,23 @@
 <div class="PUImgContainer">
 
     <div class="PULargeImg">
-        <img src="img/shark1.png" alt="shark">
+        <img src="img/Havl.png" alt="shark">
     </div>
 
     <div class="PUSmallImg">
-        <img src="img/shark2.png" alt="shark">
+        <img src="img/Havl.png" alt="shark">
     </div>
 
     <div class="PUSmallImg">
-        <img src="img/shark3.png" alt="shark">
+        <img src="img/haj2.png" alt="shark">
     </div>
 
     <div class="PUSmallImg">
-        <img src="img/shark4.png" alt="shark">
+        <img src="img/haj3.png" alt="shark">
     </div>
 
     <div class="PUSmallImg parentOverlay">
-        <img src="img/shark5.png" alt="shark">        
+        <img src="img/haj4" alt="shark">
         <div class="gradientOverlay"></div>
         <div class="arrowOverlay">
             <img src="img/moreImgArrow.png" alt="arrow">

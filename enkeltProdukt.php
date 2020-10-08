@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Prisberegner | Pluniverse</title>
+    <title>Haj | Pluniverse</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
