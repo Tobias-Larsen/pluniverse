@@ -6,7 +6,7 @@
         <h3 class="balooFont text-blue pb-2">Haj</h3>
         <i class="fas fa-trash-alt ml-auto"></i>
 
-        <div class="productImage"></div>
+        <div class="productImage productImg1"></div>
 
         <div class="priceContainer d-flex flex-wrap align-self-end">
             <p class="ml-auto mb-0">Vælg antal</p>
@@ -26,7 +26,7 @@
         <h3 class="balooFont text-blue pb-2">Krokodille</h3>
         <i class="fas fa-trash-alt ml-auto"></i>
 
-        <div class="productImage"></div>
+        <div class="productImage productImg2"></div>
 
         <div class="priceContainer d-flex flex-wrap align-self-end">
             <p class="ml-auto mb-0">Vælg antal</p>
@@ -46,7 +46,7 @@
         <h3 class="balooFont text-blue pb-2">Pingvin</h3>
         <i class="fas fa-trash-alt ml-auto"></i>
 
-        <div class="productImage"></div>
+        <div class="productImage productImg3"></div>
 
         <div class="priceContainer d-flex flex-wrap align-self-end">
             <p class="ml-auto mb-0">Vælg antal</p>
