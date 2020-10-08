@@ -6,13 +6,19 @@ $textcolor: #575757;
 $secondaryFarve: #DD7128;
 $billedebackground: #F6F6F6;
 
+
 $tablet: "screen and (min-width: 768px)";
 $PC: "screen and (min-width: 1200px)";
+
+$primaryFont:Baloo, sans-serif;;
+$secondaryFont:Poppins, sans-serif;;
+
 
 
 .Pnavn {
   font-size: $hovedskrift;
   color: $primaryfarver;
+  font-family: $primaryFont;
 }
 
 .produktBTN {
@@ -23,6 +29,7 @@ $PC: "screen and (min-width: 1200px)";
 .textInfo {
   font-size: $brødtekst;
   color: $textcolor;
+  font-family: $secondaryFont;
 }
 
 .produktbillede1 {
@@ -32,7 +39,6 @@ $PC: "screen and (min-width: 1200px)";
   background-size: 75%;
   background-position: 50%;
   background-repeat: no-repeat;
-
 }
 
 .produktbillede2 {
@@ -89,19 +95,21 @@ $PC: "screen and (min-width: 1200px)";
 .produktBTN {
   bottom: 24px;
   right: 40px;
-  width: 114px;
-  height: 36px;
+  padding: 8px 16px 8px 16px;
   font-size: $btnFontSize;
+  font-family: $secondaryFont;
 }
 
-.Hej {
+.DyreNavn {
   font-size: 18px;
   color: $textcolor;
+  font-family: $primaryFont;
 }
 
 .prise1 {
   font-size: 16px;
   color: $textcolor;
+  font-family: $secondaryFont;
 }
 
 

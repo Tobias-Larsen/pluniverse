@@ -40,6 +40,10 @@ img {
 }
 
 
+$primaryFont:Baloo, sans-serif;;
+$secondaryFont:Poppins, sans-serif;;
+
+
 .topLogo{
   width: 154px;
 }
@@ -51,6 +55,7 @@ img {
   cursor: pointer;
   top: 0;
   z-index: 20;
+  font-family: $brødtekst;
 }
 
 
@@ -61,6 +66,7 @@ img {
   right: 0px;
   font-size: 14px;
   border-left: solid;
+  font-family: $primaryFont;
  }
 .Antallet{
   background-color: #F49B0C!important;
@@ -193,9 +199,8 @@ header{
 
   div > a{
     text-decoration: dotted;
-    color: white;
-    font-size: 18px;
-  }
+     font-size: 18px;
+   }
   .nav-Desktop{
     height: 42px;
     align-items: center;
@@ -224,5 +229,5 @@ header{
     right: 50%;
     transform: translateX(600px);
     border-right: solid;
-  }
+    }
 }

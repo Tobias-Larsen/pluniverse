@@ -24,19 +24,18 @@
 
             <div class="PriseB d-flex flex-row text-light align-items-center justify-content-center px-3 position-absolute">
                 <a href="prisberegner.php"<div class="pr-2"><p>Prisberegner</p></a>
-                <span class="Antallet badge-light text-light position-absolute"><p>2</p></span>
-                <div class="">
-                    <i class="fas fa-calculator"></i>
+                    <span class="Antallet badge-light text-light position-absolute"><p>2</p></span>
+                    <div class="">
+                        <i class="fas fa-calculator"></i>
+                    </div>
                 </div>
+
             </div>
-
         </div>
-    </div>
-
 
 </header>
 
-<div class="container-fluid headerBeregning position-sticky d-md-none my-4 d-flex align-items-center justify-content-center flex-row text-light">
+<div class="container-fluid headerBeregning position-sticky d-md-none d-flex align-items-center justify-content-center flex-row text-light">
     <div class="pr-2"><p>1 produkt i prisberegneren</p></div>
     <div class="pr-2">
         <i class="fas fa-calculator"></i>
