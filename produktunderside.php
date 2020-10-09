@@ -34,7 +34,7 @@
     </div>
 
     <div class="PUSmallImg parentOverlay">
-        <img src="img/haj4" alt="shark">
+        <img src="img/haj4.png" alt="shark">
         <div class="gradientOverlay"></div>
         <div class="arrowOverlay">
             <img src="img/moreImgArrow.png" alt="arrow">
